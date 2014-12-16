@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+	<ribbon>
+		<tabs>
+			<tab idMso="TabMail">
+				<group id="FileMessage" label="Mail Sorter">
+					<button id="FileMessageButton" onAction="FileMessage_OnClick" imageMso="MoveItem" label="File Message" screentip="Move the message to the Sender's folder." size="large" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
