@@ -29,6 +29,7 @@
     <AssemblyName>MailSorter</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <DefineConstants>VSTO40</DefineConstants>
+    <IsWebBootstrapper>False</IsWebBootstrapper>
     <BootstrapperEnabled>true</BootstrapperEnabled>
     <PublishUrl>publish\</PublishUrl>
     <InstallUrl />
@@ -38,7 +39,6 @@
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>days</UpdateIntervalUnits>
-    <IsWebBootstrapper>False</IsWebBootstrapper>
     <ProductName>MailSorter</ProductName>
     <PublisherName />
     <SupportUrl />
@@ -230,7 +230,7 @@
     <ManifestKeyFile>MailSorter_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>F073AE0D8D41E73CE1075327CA4AE37FF2FDD1DB</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>65B61561B42E42B7B8FFD4DF8D0FB03EC314E640</ManifestCertificateThumbprint>
   </PropertyGroup>
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
